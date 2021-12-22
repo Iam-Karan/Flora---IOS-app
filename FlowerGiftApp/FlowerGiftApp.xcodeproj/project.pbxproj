@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011289882761A11800A6D4FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011289872761A11800A6D4FE /* AppDelegate.swift */; };
+		0112898A2761A11800A6D4FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011289892761A11800A6D4FE /* SceneDelegate.swift */; };
+		0112898C2761A11800A6D4FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0112898B2761A11800A6D4FE /* ViewController.swift */; };
+		0112898F2761A11800A6D4FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0112898D2761A11800A6D4FE /* Main.storyboard */; };
+		011289912761A11800A6D4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011289902761A11800A6D4FE /* Assets.xcassets */; };
+		011289942761A11800A6D4FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011289922761A11800A6D4FE /* LaunchScreen.storyboard */; };
+		0112899F2761A11800A6D4FE /* FlowerGiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0112899E2761A11800A6D4FE /* FlowerGiftAppTests.swift */; };
+		011289A92761A11800A6D4FE /* FlowerGiftAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011289A82761A11800A6D4FE /* FlowerGiftAppUITests.swift */; };
+		011289AB2761A11800A6D4FE /* FlowerGiftAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011289AA2761A11800A6D4FE /* FlowerGiftAppUITestsLaunchTests.swift */; };
+		011F49942762B4A700FD5CD2 /* GiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F49932762B4A700FD5CD2 /* GiftViewController.swift */; };
+		011F49962762B4D800FD5CD2 /* FlowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F49952762B4D800FD5CD2 /* FlowerViewController.swift */; };
+		011F49982762B4F700FD5CD2 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F49972762B4F700FD5CD2 /* FavouriteViewController.swift */; };
+		011F499C2762B6F600FD5CD2 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F499B2762B6F600FD5CD2 /* CartViewController.swift */; };
+		011F499E2762BCB600FD5CD2 /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011F499D2762BCB600FD5CD2 /* Cart.storyboard */; };
+		011F49A02762C18A00FD5CD2 /* ShippingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F499F2762C18A00FD5CD2 /* ShippingViewController.swift */; };
+		011F49A22762C44200FD5CD2 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F49A12762C44200FD5CD2 /* PaymentViewController.swift */; };
+		011F49A42762D0BA00FD5CD2 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F49A32762D0BA00FD5CD2 /* ProductDetailViewController.swift */; };
+		011F49A82762F83400FD5CD2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F49A72762F83400FD5CD2 /* MenuViewController.swift */; };
+		019B6186276413EA00732255 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B6185276413EA00732255 /* OrdersViewController.swift */; };
+		019B618827641A6300732255 /* GiftFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B618727641A6300732255 /* GiftFinderViewController.swift */; };
+		019B618A2764200E00732255 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B61892764200E00732255 /* UserViewController.swift */; };
+		019B618C2764467600732255 /* Signin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019B618B2764467600732255 /* Signin.storyboard */; };
+		019B618E2764479D00732255 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B618D2764479D00732255 /* SignInViewController.swift */; };
+		019B6190276447C200732255 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B618F276447C200732255 /* SignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0112899B2761A11800A6D4FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0112897C2761A11800A6D4FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 011289832761A11800A6D4FE;
+			remoteInfo = FlowerGiftApp;
+		};
+		011289A52761A11800A6D4FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0112897C2761A11800A6D4FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 011289832761A11800A6D4FE;
+			remoteInfo = FlowerGiftApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011289842761A11800A6D4FE /* FlowerGiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerGiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		011289872761A11800A6D4FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		011289892761A11800A6D4FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0112898B2761A11800A6D4FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0112898E2761A11800A6D4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		011289902761A11800A6D4FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		011289932761A11800A6D4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		011289952761A11800A6D4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0112899A2761A11800A6D4FE /* FlowerGiftAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerGiftAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112899E2761A11800A6D4FE /* FlowerGiftAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerGiftAppTests.swift; sourceTree = "<group>"; };
+		011289A42761A11800A6D4FE /* FlowerGiftAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerGiftAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		011289A82761A11800A6D4FE /* FlowerGiftAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerGiftAppUITests.swift; sourceTree = "<group>"; };
+		011289AA2761A11800A6D4FE /* FlowerGiftAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerGiftAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		011F49932762B4A700FD5CD2 /* GiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftViewController.swift; sourceTree = "<group>"; };
+		011F49952762B4D800FD5CD2 /* FlowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerViewController.swift; sourceTree = "<group>"; };
+		011F49972762B4F700FD5CD2 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		011F499B2762B6F600FD5CD2 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		011F499D2762BCB600FD5CD2 /* Cart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cart.storyboard; sourceTree = "<group>"; };
+		011F499F2762C18A00FD5CD2 /* ShippingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingViewController.swift; sourceTree = "<group>"; };
+		011F49A12762C44200FD5CD2 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		011F49A32762D0BA00FD5CD2 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		011F49A72762F83400FD5CD2 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		019B6185276413EA00732255 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		019B618727641A6300732255 /* GiftFinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftFinderViewController.swift; sourceTree = "<group>"; };
+		019B61892764200E00732255 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		019B618B2764467600732255 /* Signin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signin.storyboard; sourceTree = "<group>"; };
+		019B618D2764479D00732255 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		019B618F276447C200732255 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		011289812761A11800A6D4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011289972761A11800A6D4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011289A12761A11800A6D4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0112897B2761A11800A6D4FE = {
+			isa = PBXGroup;
+			children = (
+				011289862761A11800A6D4FE /* FlowerGiftApp */,
+				0112899D2761A11800A6D4FE /* FlowerGiftAppTests */,
+				011289A72761A11800A6D4FE /* FlowerGiftAppUITests */,
+				011289852761A11800A6D4FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		011289852761A11800A6D4FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				011289842761A11800A6D4FE /* FlowerGiftApp.app */,
+				0112899A2761A11800A6D4FE /* FlowerGiftAppTests.xctest */,
+				011289A42761A11800A6D4FE /* FlowerGiftAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		011289862761A11800A6D4FE /* FlowerGiftApp */ = {
+			isa = PBXGroup;
+			children = (
+				011F49922762B3AA00FD5CD2 /* Controller */,
+				011289872761A11800A6D4FE /* AppDelegate.swift */,
+				011289892761A11800A6D4FE /* SceneDelegate.swift */,
+				0112898D2761A11800A6D4FE /* Main.storyboard */,
+				019B618B2764467600732255 /* Signin.storyboard */,
+				011F499D2762BCB600FD5CD2 /* Cart.storyboard */,
+				011289902761A11800A6D4FE /* Assets.xcassets */,
+				011289922761A11800A6D4FE /* LaunchScreen.storyboard */,
+				011289952761A11800A6D4FE /* Info.plist */,
+			);
+			path = FlowerGiftApp;
+			sourceTree = "<group>";
+		};
+		0112899D2761A11800A6D4FE /* FlowerGiftAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0112899E2761A11800A6D4FE /* FlowerGiftAppTests.swift */,
+			);
+			path = FlowerGiftAppTests;
+			sourceTree = "<group>";
+		};
+		011289A72761A11800A6D4FE /* FlowerGiftAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				011289A82761A11800A6D4FE /* FlowerGiftAppUITests.swift */,
+				011289AA2761A11800A6D4FE /* FlowerGiftAppUITestsLaunchTests.swift */,
+			);
+			path = FlowerGiftAppUITests;
+			sourceTree = "<group>";
+		};
+		011F49922762B3AA00FD5CD2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				019B618F276447C200732255 /* SignUpViewController.swift */,
+				0112898B2761A11800A6D4FE /* ViewController.swift */,
+				011F49932762B4A700FD5CD2 /* GiftViewController.swift */,
+				011F49952762B4D800FD5CD2 /* FlowerViewController.swift */,
+				011F49972762B4F700FD5CD2 /* FavouriteViewController.swift */,
+				011F499B2762B6F600FD5CD2 /* CartViewController.swift */,
+				011F499F2762C18A00FD5CD2 /* ShippingViewController.swift */,
+				011F49A12762C44200FD5CD2 /* PaymentViewController.swift */,
+				011F49A32762D0BA00FD5CD2 /* ProductDetailViewController.swift */,
+				011F49A72762F83400FD5CD2 /* MenuViewController.swift */,
+				019B6185276413EA00732255 /* OrdersViewController.swift */,
+				019B618727641A6300732255 /* GiftFinderViewController.swift */,
+				019B61892764200E00732255 /* UserViewController.swift */,
+				019B618D2764479D00732255 /* SignInViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		011289832761A11800A6D4FE /* FlowerGiftApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011289AE2761A11800A6D4FE /* Build configuration list for PBXNativeTarget "FlowerGiftApp" */;
+			buildPhases = (
+				011289802761A11800A6D4FE /* Sources */,
+				011289812761A11800A6D4FE /* Frameworks */,
+				011289822761A11800A6D4FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowerGiftApp;
+			productName = FlowerGiftApp;
+			productReference = 011289842761A11800A6D4FE /* FlowerGiftApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		011289992761A11800A6D4FE /* FlowerGiftAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011289B12761A11800A6D4FE /* Build configuration list for PBXNativeTarget "FlowerGiftAppTests" */;
+			buildPhases = (
+				011289962761A11800A6D4FE /* Sources */,
+				011289972761A11800A6D4FE /* Frameworks */,
+				011289982761A11800A6D4FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0112899C2761A11800A6D4FE /* PBXTargetDependency */,
+			);
+			name = FlowerGiftAppTests;
+			productName = FlowerGiftAppTests;
+			productReference = 0112899A2761A11800A6D4FE /* FlowerGiftAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		011289A32761A11800A6D4FE /* FlowerGiftAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011289B42761A11800A6D4FE /* Build configuration list for PBXNativeTarget "FlowerGiftAppUITests" */;
+			buildPhases = (
+				011289A02761A11800A6D4FE /* Sources */,
+				011289A12761A11800A6D4FE /* Frameworks */,
+				011289A22761A11800A6D4FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				011289A62761A11800A6D4FE /* PBXTargetDependency */,
+			);
+			name = FlowerGiftAppUITests;
+			productName = FlowerGiftAppUITests;
+			productReference = 011289A42761A11800A6D4FE /* FlowerGiftAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0112897C2761A11800A6D4FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					011289832761A11800A6D4FE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					011289992761A11800A6D4FE = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 011289832761A11800A6D4FE;
+					};
+					011289A32761A11800A6D4FE = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 011289832761A11800A6D4FE;
+					};
+				};
+			};
+			buildConfigurationList = 0112897F2761A11800A6D4FE /* Build configuration list for PBXProject "FlowerGiftApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0112897B2761A11800A6D4FE;
+			productRefGroup = 011289852761A11800A6D4FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				011289832761A11800A6D4FE /* FlowerGiftApp */,
+				011289992761A11800A6D4FE /* FlowerGiftAppTests */,
+				011289A32761A11800A6D4FE /* FlowerGiftAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		011289822761A11800A6D4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019B618C2764467600732255 /* Signin.storyboard in Resources */,
+				011F499E2762BCB600FD5CD2 /* Cart.storyboard in Resources */,
+				011289942761A11800A6D4FE /* LaunchScreen.storyboard in Resources */,
+				011289912761A11800A6D4FE /* Assets.xcassets in Resources */,
+				0112898F2761A11800A6D4FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011289982761A11800A6D4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011289A22761A11800A6D4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		011289802761A11800A6D4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011F49A02762C18A00FD5CD2 /* ShippingViewController.swift in Sources */,
+				011F49942762B4A700FD5CD2 /* GiftViewController.swift in Sources */,
+				011F49962762B4D800FD5CD2 /* FlowerViewController.swift in Sources */,
+				011F499C2762B6F600FD5CD2 /* CartViewController.swift in Sources */,
+				011F49A82762F83400FD5CD2 /* MenuViewController.swift in Sources */,
+				0112898C2761A11800A6D4FE /* ViewController.swift in Sources */,
+				019B618827641A6300732255 /* GiftFinderViewController.swift in Sources */,
+				019B618A2764200E00732255 /* UserViewController.swift in Sources */,
+				019B618E2764479D00732255 /* SignInViewController.swift in Sources */,
+				011289882761A11800A6D4FE /* AppDelegate.swift in Sources */,
+				019B6190276447C200732255 /* SignUpViewController.swift in Sources */,
+				019B6186276413EA00732255 /* OrdersViewController.swift in Sources */,
+				011F49982762B4F700FD5CD2 /* FavouriteViewController.swift in Sources */,
+				011F49A42762D0BA00FD5CD2 /* ProductDetailViewController.swift in Sources */,
+				011F49A22762C44200FD5CD2 /* PaymentViewController.swift in Sources */,
+				0112898A2761A11800A6D4FE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011289962761A11800A6D4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0112899F2761A11800A6D4FE /* FlowerGiftAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011289A02761A11800A6D4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011289A92761A11800A6D4FE /* FlowerGiftAppUITests.swift in Sources */,
+				011289AB2761A11800A6D4FE /* FlowerGiftAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0112899C2761A11800A6D4FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 011289832761A11800A6D4FE /* FlowerGiftApp */;
+			targetProxy = 0112899B2761A11800A6D4FE /* PBXContainerItemProxy */;
+		};
+		011289A62761A11800A6D4FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 011289832761A11800A6D4FE /* FlowerGiftApp */;
+			targetProxy = 011289A52761A11800A6D4FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0112898D2761A11800A6D4FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0112898E2761A11800A6D4FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		011289922761A11800A6D4FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				011289932761A11800A6D4FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		011289AC2761A11800A6D4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		011289AD2761A11800A6D4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		011289AF2761A11800A6D4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D28K249LGK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlowerGiftApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piya.Demo.FlowerGiftApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		011289B02761A11800A6D4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D28K249LGK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlowerGiftApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piya.Demo.FlowerGiftApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		011289B22761A11800A6D4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piya.Demo.FlowerGiftAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowerGiftApp.app/FlowerGiftApp";
+			};
+			name = Debug;
+		};
+		011289B32761A11800A6D4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piya.Demo.FlowerGiftAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowerGiftApp.app/FlowerGiftApp";
+			};
+			name = Release;
+		};
+		011289B52761A11800A6D4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piya.Demo.FlowerGiftAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlowerGiftApp;
+			};
+			name = Debug;
+		};
+		011289B62761A11800A6D4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piya.Demo.FlowerGiftAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlowerGiftApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0112897F2761A11800A6D4FE /* Build configuration list for PBXProject "FlowerGiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011289AC2761A11800A6D4FE /* Debug */,
+				011289AD2761A11800A6D4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011289AE2761A11800A6D4FE /* Build configuration list for PBXNativeTarget "FlowerGiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011289AF2761A11800A6D4FE /* Debug */,
+				011289B02761A11800A6D4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011289B12761A11800A6D4FE /* Build configuration list for PBXNativeTarget "FlowerGiftAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011289B22761A11800A6D4FE /* Debug */,
+				011289B32761A11800A6D4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011289B42761A11800A6D4FE /* Build configuration list for PBXNativeTarget "FlowerGiftAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011289B52761A11800A6D4FE /* Debug */,
+				011289B62761A11800A6D4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0112897C2761A11800A6D4FE /* Project object */;
+}
