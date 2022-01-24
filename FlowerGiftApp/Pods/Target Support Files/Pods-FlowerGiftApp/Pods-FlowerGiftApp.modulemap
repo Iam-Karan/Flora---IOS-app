@@ -1,0 +1,6 @@
+framework module Pods_FlowerGiftApp {
+  umbrella header "Pods-FlowerGiftApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

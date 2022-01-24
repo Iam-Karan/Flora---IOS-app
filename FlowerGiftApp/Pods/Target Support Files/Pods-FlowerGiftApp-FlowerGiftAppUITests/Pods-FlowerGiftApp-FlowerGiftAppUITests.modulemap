@@ -1,0 +1,6 @@
+framework module Pods_FlowerGiftApp_FlowerGiftAppUITests {
+  umbrella header "Pods-FlowerGiftApp-FlowerGiftAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
